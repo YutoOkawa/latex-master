@@ -1,0 +1,326 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inu",
+				"input_cel"
+			],
+			[
+				"table",
+				"table_text"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"tab",
+				"table_text"
+			],
+			[
+				"ta",
+				"table_text"
+			],
+			[
+				"cap",
+				"caption_text"
+			],
+			[
+				"for",
+				"formula_symbol"
+			],
+			[
+				"form_",
+				"form_sym"
+			],
+			[
+				"re",
+				"reverse_form"
+			],
+			[
+				"py",
+				"pyperclip"
+			],
+			[
+				"pi",
+				"print_picnic"
+			],
+			[
+				"item",
+				"item_total"
+			],
+			[
+				"print",
+				"print_board"
+			],
+			[
+				"lo",
+				"low-R"
+			],
+			[
+				"mi",
+				"mid-R"
+			],
+			[
+				"mid",
+				"mid-M"
+			],
+			[
+				"top",
+				"top-R"
+			],
+			[
+				"to",
+				"top-M"
+			],
+			[
+				"b",
+				"bday"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "figure.py",
+			"settings":
+			{
+				"buffer_size": 1941,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sspy",
+				"Set Syntax: Python3"
+			],
+			[
+				"sspyto",
+				"Set Syntax: Python3"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Add Channel"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/yuuto-ookawa/Library/Mobile Documents/com~apple~CloudDocs/Documents/programming/python/latex"
+	],
+	"file_history":
+	[
+		"/Users/yuuto-ookawa/figure.py",
+		"/Users/yuuto-ookawa/Library/Mobile Documents/com~apple~CloudDocs/school/3rd_second_semester/cysec/zemi/week5/week5.sublime-project",
+		"/Users/yuuto-ookawa/Library/Mobile Documents/com~apple~CloudDocs/school/3rd_second_semester/cysec/zemi/week3/zemi3.py",
+		"/Users/yuuto-ookawa/Documents/Programming/python/boring/chapter6/bulletPointAdder.py",
+		"/Users/yuuto-ookawa/Documents/Programming/python/boring/chapter6/pw.py",
+		"/Users/yuuto-ookawa/Documents/Programming/python/boring/chapter6/chapter6.sublime-workspace",
+		"/Users/yuuto-ookawa/Documents/Programming/python/boring/chapter4/str_grid.py",
+		"/Users/yuuto-ookawa/Documents/Programming/python/boring/aaa.py",
+		"/Users/yuuto-ookawa/Documents/Programming/python/boring/chapter4/camma.py",
+		"/Users/yuuto-ookawa/Documents/Programming/python/boring/chapter4/allMyCats2.py",
+		"/Users/yuuto-ookawa/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/yuuto-ookawa/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/yuuto-ookawa/Library/Mobile Documents/com~apple~CloudDocs/school/3rd_second_semester/cysec/zemi/zemi4_encrypt.py",
+		"/Users/yuuto-ookawa/Documents/Programming/python/hello.py"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "figure.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1941,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								128,
+								128
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python 3/Python3.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 144.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python 3/Python3.sublime-build",
+	"project": "latex.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"birthdays.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
