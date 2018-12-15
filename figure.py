@@ -19,7 +19,7 @@ def caption(table_text):
 
 def tabular(table_text):
 	"""列数の入力
-	列指定中央揃え'c'のみ(その他実装未定)
+	列指定中央揃え'c'のみ(c以外も実装予定)
 	"""
 	#インテントと\begin{tabular}の入力
 	table_text = table_text + "    \\begin{tabular}{|"
@@ -100,4 +100,3 @@ def main():
 
 if __name__ == "__main__":
 	main()
-
