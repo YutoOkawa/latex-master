@@ -30,7 +30,7 @@ def tabular(table_text):
 		try:
 			row_number = int(input())
 			break
-		except:
+		except ValueError:
 			print('error')
 			continue
 
@@ -53,7 +53,7 @@ def input_cel(table_text,row_number):
 		try:
 			line_number = int(input())
 			break
-		except:
+		except ValueError:
 			print('error')
 			continue
 
