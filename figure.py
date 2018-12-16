@@ -59,7 +59,7 @@ def input_cel(table_text,row_number):
 
 	#セル部の入力
 	for i in range(line_number):
-		#インテント
+		#インテントの入力
 		table_text = table_text + "       "
 
 		#セルの入力
