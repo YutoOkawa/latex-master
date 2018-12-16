@@ -8,7 +8,19 @@ caption、cel部入力に対応
 import pyperclip
 
 def caption(table_text):
-	"""captionの入力
+	"""
+	caption部の文字列を入力する。
+
+	Parameters
+	----------
+	teble_text : String
+		出力する表のソースコード
+
+	Returns
+	-------
+	table_text : String
+		caption{}を付け足した表のソースコード
+
 	"""
 	print("captionを入力してください。",end="")
 
@@ -18,9 +30,27 @@ def caption(table_text):
 	return table_text
 
 def tabular(table_text):
-	"""列数の入力
-	列指定中央揃え'c'のみ(c以外も実装予定)
 	"""
+	表の列の数を入力し、列指定を行う。
+
+	Parameters
+	----------
+	table_text : String
+		captionが入力された表のソースコード
+
+	Returns
+	-------
+	table_text : String
+		\begin{tabular}と表の指定子が追加されたソースコード
+
+	row_number : int
+		列の数
+
+	Notes
+	-----
+	列指定は中央揃え'c'のみ(c以外も実装予定)
+	"""
+
 	#インテントと\begin{tabular}の入力
 	table_text = table_text + "    \\begin{tabular}{|"
 
@@ -76,22 +106,16 @@ def input_cel(table_text,row_number):
 	return table_text
 
 def main():
-	#\begin{table}で開始、一応centeringも
 	table_text = "\\begin{table}[!h]\n    \centering\n"
 
-	#captionの入力
 	table_text = caption(table_text)
 
-	#列数の入力、同時に列数も取得
 	table_text,row_number = tabular(table_text)
 
-	#行数の入力、セル部の入力
 	table_text= input_cel(table_text,row_number)
 
-	#\end{tabular}の入力 \begin{tabular}はtabular()内で入力済み
 	table_text = table_text + "    \\end{tabular}\n"
 
-	#\end{table}の入力
 	table_text = table_text + "\\end{table}"
 
 	#クリップボードにコピー
